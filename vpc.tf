@@ -16,3 +16,5 @@ resource "aws_subnet" "pub_subnets" {
     }
     depends_on           = [ aws_vpc.vnet ]
 }
+
+data "aws_region" "current" {}
