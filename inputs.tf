@@ -18,6 +18,6 @@ variable "network_details" {
     default         = {
         name        = "tf-vnet"
         cidr_block  = "10.10.0.0/16"
-        tags = [ "web", "app" ]
+        tags        = [ "web", "app" ]
     }
 }
